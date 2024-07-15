@@ -1290,25 +1290,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154b9eec03e77854097c93eb20609a33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _waves:
-  - _waveSettings:
-    - {_enemy: {fileID: 0}, _neededSpawner: {fileID: 0}, _spawnDelay: 0}
-    - {_enemy: {fileID: 0}, _neededSpawner: {fileID: 0}, _spawnDelay: 0}
-    - {_enemy: {fileID: 0}, _neededSpawner: {fileID: 0}, _spawnDelay: 0}
-  - _waveSettings:
-    - {_enemy: {fileID: 0}, _neededSpawner: {fileID: 0}, _spawnDelay: 0}
-    - {_enemy: {fileID: 0}, _neededSpawner: {fileID: 0}, _spawnDelay: 0}
-    - {_enemy: {fileID: 0}, _neededSpawner: {fileID: 0}, _spawnDelay: 0}
-    - {_enemy: {fileID: 0}, _neededSpawner: {fileID: 0}, _spawnDelay: 0}
-  - _waveSettings:
-    - {_enemy: {fileID: 0}, _neededSpawner: {fileID: 0}, _spawnDelay: 0}
-    - {_enemy: {fileID: 0}, _neededSpawner: {fileID: 0}, _spawnDelay: 0}
-    - {_enemy: {fileID: 0}, _neededSpawner: {fileID: 0}, _spawnDelay: 0}
-    - {_enemy: {fileID: 0}, _neededSpawner: {fileID: 0}, _spawnDelay: 0}
-    - {_enemy: {fileID: 0}, _neededSpawner: {fileID: 0}, _spawnDelay: 0}
-  _currentEnemyIndex: 0
-  _currentWaveIndex: 0
-  _enemiesLeftToSpawn: 0
 --- !u!4 &571096073
 Transform:
   m_ObjectHideFlags: 0
@@ -1474,7 +1455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b85dd989ce30ff40b3f448a6cae991c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinCount: 3
+  coinCount: 0
 --- !u!1001 &667796857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2163,7 +2144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6a93b80190dbf48896677ec4cb87e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalRotationSpeed: 10
+  horizontalRotationSpeed: 35
   verticalRotationSpeed: 10
   _rotatedXTransform: {fileID: 425322670}
   _rotatedYTransform: {fileID: 848619921}
