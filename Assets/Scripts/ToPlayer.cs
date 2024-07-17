@@ -14,3 +14,4 @@ public class ToPlayer : MonoBehaviour
         transform.position += direction * Time.deltaTime * approachSpeed;
     }
 }
+

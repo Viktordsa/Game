@@ -5,17 +5,19 @@ using UnityEngine.AI;
 
 public class GoToNavMash : MonoBehaviour
 {
+    Transform target;
     public Transform goal;
     NavMeshAgent agent;
     
     void Start()
     {
+        target = Player.instance.transform;
         agent = GetComponent<NavMeshAgent>();
 
     }
     void Update()
     {
-        agent.destination = goal.position;
+        agent.destination = target.position;
 
     }
 }

@@ -15,7 +15,7 @@ public class HealthManager : MonoBehaviour
         }
     }
 
-    // Метод для перезапуска добавления здоровья
+    
     public void RestartHealth()
     {
         currentHealth = maxHealth;
