@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5732835320503822332}
   - component: {fileID: -4257605408022091757}
-  - component: {fileID: -2824005122629241354}
-  - component: {fileID: 8518088968870248133}
   - component: {fileID: 1475994940559188336}
-  - component: {fileID: 7220270855387953826}
+  - component: {fileID: -5813930111929727199}
+  - component: {fileID: -6881905490485898087}
+  - component: {fileID: 7459627471306876780}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -49,44 +49,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 928b1c16386ecf545ba173a137885847, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &-2824005122629241354
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3695666628119875855}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8518088968870248133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3695666628119875855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6735a1e9394b18048b6f5444ae480fc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  move_speed: 1
-  rotation_speed: 1
-  enemy: {fileID: 5732835320503822332}
 --- !u!54 &1475994940559188336
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -112,9 +74,43 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &7220270855387953826
+--- !u!114 &-5813930111929727199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3695666628119875855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b0d3d05b8301a34caeb56b92107ccb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!195 &-6881905490485898087
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3695666628119875855}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 0.97
+  m_Acceleration: 40.37
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &7459627471306876780
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,8 +122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d705f953521c76548a4bcbd2e3b1f035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyTag: 
-  DestroyedPrefab: {fileID: 0}
+  DestroyTag: Sword
+  DestroyedPrefab: {fileID: 2810897829363856027, guid: 7a40145ef81c3964dbc3100af9a70135, type: 3}
 --- !u!1 &6660558423453691315
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,7 +152,7 @@ Transform:
   m_GameObject: {fileID: 6660558423453691315}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_ConstrainProportionsScale: 0
   m_Children: []
