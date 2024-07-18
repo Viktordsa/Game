@@ -1387,13 +1387,43 @@ MonoBehaviour:
     - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
       _neededSpawner: {fileID: 2022862650}
       _spawnDelay: 1
-  - _waveSettings:
     - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
-      _neededSpawner: {fileID: 1517728559}
+      _neededSpawner: {fileID: 2022862650}
+      _spawnDelay: 1
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 2022862650}
       _spawnDelay: 1
   - _waveSettings:
     - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
       _neededSpawner: {fileID: 1517728559}
+      _spawnDelay: 1
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 838263188}
+      _spawnDelay: 1
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 2022862650}
+      _spawnDelay: 1
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 2022862650}
+      _spawnDelay: 1
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 2022862650}
+      _spawnDelay: 1
+  - _waveSettings:
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 1517728559}
+      _spawnDelay: 1
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 838263188}
+      _spawnDelay: 1
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 2022862650}
+      _spawnDelay: 1
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 2022862650}
+      _spawnDelay: 1
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 2022862650}
       _spawnDelay: 1
 --- !u!4 &571096073
 Transform:
@@ -1403,7 +1433,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571096070}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.2122544, y: 1.7201029, z: 0.72750014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3866,7 +3896,7 @@ Transform:
   m_GameObject: {fileID: 1517728559}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.4601617, y: 1.213, z: 0}
+  m_LocalPosition: {x: -3.4601617, y: 1.213, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4776,7 +4806,7 @@ Transform:
   m_GameObject: {fileID: 2022862650}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.4601617, y: 1.213, z: 0}
+  m_LocalPosition: {x: -3.4601617, y: 1.213, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5373,5 +5403,5 @@ SceneRoots:
   - {fileID: 2026301744}
   - {fileID: 7493568019625081563}
   - {fileID: 491796792}
-  - {fileID: 571096073}
   - {fileID: 330464547}
+  - {fileID: 571096073}

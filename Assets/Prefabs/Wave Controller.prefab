@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1007655197750873499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6372736986447822926}
+  - component: {fileID: 3951511411407613285}
+  m_Layer: 0
+  m_Name: Wave Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6372736986447822926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007655197750873499}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.2122544, y: 1.7201029, z: 0.72750014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3951511411407613285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007655197750873499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb4a087d1eb6254e9a085ca0edcf8cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _waves:
+  - _waveSettings:
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 0}
+      _spawnDelay: 1
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 0}
+      _spawnDelay: 1
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 0}
+      _spawnDelay: 1
+  - _waveSettings:
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 0}
+      _spawnDelay: 1
+  - _waveSettings:
+    - _enemy: {fileID: 3695666628119875855, guid: 3ccdff2f8262dea489cb6f9c12545527, type: 3}
+      _neededSpawner: {fileID: 0}
+      _spawnDelay: 1

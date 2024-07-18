@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -5813930111929727199}
   - component: {fileID: -6881905490485898087}
   - component: {fileID: 7459627471306876780}
-  - component: {fileID: 1877117045433460182}
+  - component: {fileID: 2936069340681147387}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -126,7 +126,7 @@ MonoBehaviour:
   DestroyTag: Sword
   DestroyedPrefab: {fileID: 2810897829363856027, guid: 7a40145ef81c3964dbc3100af9a70135, type: 3}
   height: 0
---- !u!114 &1877117045433460182
+--- !u!114 &2936069340681147387
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 6426825584909361765}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
