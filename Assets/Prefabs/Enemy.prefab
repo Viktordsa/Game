@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -5813930111929727199}
   - component: {fileID: -6881905490485898087}
   - component: {fileID: 7459627471306876780}
+  - component: {fileID: 1877117045433460182}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -124,6 +125,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DestroyTag: Sword
   DestroyedPrefab: {fileID: 2810897829363856027, guid: 7a40145ef81c3964dbc3100af9a70135, type: 3}
+  height: 0
+--- !u!114 &1877117045433460182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3695666628119875855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33909d716e2f8c14292f4b36c09f074c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: LoseScene
 --- !u!1 &6660558423453691315
 GameObject:
   m_ObjectHideFlags: 0
