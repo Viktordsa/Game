@@ -7,7 +7,7 @@ public class SceneChanger : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.collider.CompareTag("Player")) 
+        if (other.collider.CompareTag("Player") | other.collider.CompareTag("Sword")) 
         {
             SceneManager.LoadScene(SceneName); 
         }

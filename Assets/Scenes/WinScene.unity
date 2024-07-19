@@ -5021,7 +5021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -5158,7 +5158,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 774285558}
-  - component: {fileID: 774285557}
   m_Layer: 0
   m_Name: SceneLoader
   m_TagString: Untagged
@@ -5166,19 +5165,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &774285557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774285556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67dd5fc9b5672054f836cb3bc0167d7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: Game
 --- !u!4 &774285558
 Transform:
   m_ObjectHideFlags: 0

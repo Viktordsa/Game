@@ -1,11 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Destroy : MonoBehaviour
+public class DestroyObjectTimer : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    public GameObject Gate;
+    public float Time;
+
+    void Start()
     {
-        Destroy(gameObject);
+        Invoke("УдалитьОбъект", Time);
+    }
+
+    void УдалитьОбъект()
+    {
+        Destroy(Gate);
     }
 }
